@@ -109,7 +109,7 @@ const createSortTemplate = () => {
   </div>
 </section>`
   );
-}
+};
 
 const createCardTemplate = () => {
   return (
@@ -156,7 +156,7 @@ const createCardTemplate = () => {
     </div>
   </article>`
   );
-}
+};
 
 const createEditTaskTemplate = () => {
   return (
@@ -359,11 +359,10 @@ const createEditTaskTemplate = () => {
   </article>
     `
   );
-}
+};
 const createNewTaskButton = () => {
   return (`<button class="load-more" type="button">load more</button>`);
-}
-
+};
 
 const render = (container, template, place) => {
   container.insertAdjacentHTML(place, template);
